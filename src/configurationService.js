@@ -14,7 +14,7 @@ angular.module('configurationModule', ['pascalprecht.translate'])
         })
         .useMissingTranslationHandlerLog();*/
     })
-     .factory('configurationService', function ($resource, $q) {
+     .factory('ConfigurationService', function ($resource, $q) {
         'use strict';
 
         var initDefer = $q.defer();
